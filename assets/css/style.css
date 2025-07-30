@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-repeat: no-repeat;
+background-size: 100%;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+ 
+
+}
+.background {
+    background-image: url('../images/background-pattern-desktop.svg');
+    max-width: 100%;
+    width: 100%;
+
+    height: 320px;
+}
+
+@media (max-width:767px){
+@media (max-width:767px){
+    .background {
+    background-image: url('../images/background-pattern-mobile.svg');
+    height: 232px;
+}
+}
+}
+.faqs-section {
+ position: absolute;
+     top: 120px;
+     left: 50%;
+     transform: translatex(-50%);
+    width: 600px;
+   
+    background-color:#fff ;
+    padding: 40px;
+    border-radius: 16px;
+    
+}
+@media (max-width:767px){
+.faqs-section {
+    position: absolute;
+    width: 600px;
+    margin: 10px auto ;
+    
+}
+}
+.faqs-section .title {
+    display: flex;
+   
+      align-items: center;
+}
+.faqs-section .title h2 {
+    margin-left: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: ;
+}
