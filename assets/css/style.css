@@ -64,7 +64,7 @@ background-size: 100%;
     line-height: 66px;
 }
 .faq {
-    padding: 24px  0;
+    padding: 15px  0;
     border-bottom: 1px solid hsl(275, 100%, 97%) ;
 }
 .faq:hover h3 {
@@ -74,6 +74,8 @@ color: #AD28EB;
     color: #301534;
     font-size: 18px;
     position: relative;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 500;
 }
 .faq h3::after {
     content: url('../images/icon-plus.svg');
